@@ -2,7 +2,7 @@
 # Week 3 Independent Project | Quiz Board
  ## By Vinson Ndalila
 ## Screenshot
- ![image](./)
+ ![image](./assets/images/Screenshot%20from%202022-05-16%2000-05-26.png)
  ## Table of Content
  - [Description](#description)
  - [Installation Process](#installation-Process)

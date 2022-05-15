@@ -25,7 +25,7 @@ function findScore() {
 
 
     if(score<2.5) {
-        myscore.textContent=`Your score is ${score}. This is below the pass mark, please try again!`;
+        myscore.textContent=`Your score is: \n ${score} \n This is below the pass mark, please try again!`;
     } 
     else if(score>2.5 && score<4) {
         myscore.textContent=`Your score is ${score}. You can do better!`;
@@ -35,6 +35,5 @@ function findScore() {
         myscore.textContent=`Your score is ${score}. Excellent work, Congratulations!`;
 
     }
-
 
 }
