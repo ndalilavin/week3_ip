@@ -17,6 +17,10 @@ function findScore() {
     var quiz5 = document.questions.q5.value;
     if (quiz5 == "Cassandra") {score++}
 
-    document.write(score);
+    var questions=document.getElementById("questions");
+    questions.style.display="none";
+
+    var myscore=document.getElementById('myscore');
+    myscore.textContent=`${score}`;
 
 }
