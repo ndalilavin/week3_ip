@@ -17,10 +17,24 @@ function findScore() {
     var quiz5 = document.questions.q5.value;
     if (quiz5 == "Cassandra") {score++}
 
-    var questions=document.getElementById("questions");
+    var myscore=document.getElementById('myscore');
+    // myscore.textContent=`${score}`;
+
+    var questions=document.getElementById("questions"); // Maintains page styling on results
     questions.style.display="none";
 
-    var myscore=document.getElementById('myscore');
-    myscore.textContent=`${score}`;
+
+    if(score<2.5) {
+        myscore.textContent=`Your score is ${score}. This is below the pass mark, please try again!`;
+    } 
+    else if(score>2.5 && score<4) {
+        myscore.textContent=`Your score is ${score}. You can do better!`;
+    }
+
+    else {
+        myscore.textContent=`Your score is ${score}. Excellent work, Congratulations!`;
+
+    }
+
 
 }
