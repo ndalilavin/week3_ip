@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(145, 194, 235);
+}
+
+.content {
+    margin: auto;
+    width: 50%;
+    border: 3px solid yellow;
+    padding: 10px;
+}
+
+.title {
+
+
+
+}
+
+.title>h1{
+    font-size: 40px;
+    font-family: 'Lucida Handwriting Std', sans-serif;   
+    text-align: center;
+    text-decoration: underline;
+}
+
