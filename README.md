@@ -1,6 +1,7 @@
 
 # Week 3 Independent Project | Quiz Board
- ## By Vinson Ndalila
+ ### Author: Vinson Ndalila
+ ### Version: 1.0.0
 ## Screenshot
  ![image](./assets/images/Screenshot%20from%202022-05-16%2000-05-26.png)
  ## Table of Content
