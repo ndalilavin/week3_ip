@@ -1,6 +1,7 @@
-function findScore() {
 
-    var score = 0;
+var score = 0;
+
+function findScore() {
 
     var quiz1 = document.questions.q1.value;
     if (quiz1 == "Both A and B") {score++}
@@ -35,5 +36,10 @@ function findScore() {
         myscore.textContent=`Your score is ${score}. Excellent work, Congratulations!`;
 
     }
+}
+
+function getScore() {
+    
+
 
 }
